@@ -1,0 +1,32 @@
+# Binaries
+/bin/
+/build/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go artifacts
+*.out
+*.test
+vendor/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+.env
+.env.local
+
+# Other temporary files
+*.tmp
+*.bak
+*.old
